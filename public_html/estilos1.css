@@ -1,0 +1,199 @@
+body {
+		font-family: Montserrat, Helvetica;
+		text-align:center ;
+		background-color: #B0D3FC;
+		}
+
+
+#tabla2 td,th,tr{
+		border-collapse: collapse;
+		border: 2px solid #ccc;
+}
+
+#tabla1 td,th,tr{
+		border-collapse: collapse;
+		border: 1px solid black;
+}
+
+	
+table#tabla1 {
+		border-collapse: collapse;
+		width: 75%;
+	}
+table#tabla2 {
+		border-collapse: collapse;
+		width: 75%;
+		background-color: white;
+		border: 2px solid #ccc;
+	}
+		
+
+#estilo1 {
+		color:tomato; 
+		text-decoration:underline;
+		}
+#estilo2 {
+		background-color:tomato;
+}
+#estilo3 {
+		font-family:verdana;
+}
+#estilo4 {
+		font-size:15px;
+}
+#estilo5 {
+	text-align:center;
+}
+
+#estilo7 {
+	font-size: 30px;
+	    transform: rotate(45deg);
+}
+#estilo9{
+	background-color:red;
+}
+#boton:link, #boton:visited {
+  background-color: #33B96A;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#boton:hover, #boton:active {
+  background-color: #33B7B9;
+    text-align: center;
+}
+#entretablas{
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-align: left;
+	margin-left: 12.5%;
+}
+
+#tabla1  th, #tabla1 td{
+  padding: 15px;
+}
+
+table#tabla1 tr:nth-child(even) {
+  background-color: #eee;
+}
+table#tabla1 tr:nth-child(odd) {
+ background-color: #fff;
+}
+table#tabla1 th {
+  background-color: rgb(238, 240, 199);
+}
+
+#estilo6 {
+background-color:green;
+}
+
+
+td#tabla2td{
+  width: 75px;
+   height: 140px;
+  		
+}
+td#tabla2tdazul{
+  width: 75px;
+   height: 140px;
+	background-color:blue;
+}
+td#tabla2tdimg{
+  background-color: #7FFFD4;
+}
+td#tabla2tdlol{
+  width: 75px;
+   height: 140px;
+  background-color: #572364;
+}
+td#tabla2tdhtml{
+  width: 75px;
+   height: 140px;
+   font-size: 25px;
+  
+}
+
+#estilo8 {
+    transform: rotate(45deg);
+}
+#imagenes{
+width:100%;
+}
+
+#rotar {
+    transform: rotate(90deg);
+	font-size: 30px;
+  }
+  
+#documento {
+	width: 100%;
+	height: 85%;
+	background-color: white;
+}  
+
+#documentoFila {
+}
+
+#documentoFilaVacio {
+	height: 50px;
+}
+
+#vacio {
+	width: 10%;
+}
+
+#texto {
+	width: 80%;
+}
+
+
+#imagenPaisaje{
+	width: 500px;
+	height: 204,5px;
+	padding: 30px;
+}
+  
+#div1 {
+background-color:red;
+height: 75px;
+width: 200px;
+/*float:left;*/
+}  
+#div2 {
+background-color:green;
+height: 75px;
+width: 200px;
+/*float:left;*/
+}  
+#div3 {
+background-color:yellow;
+height: 75px;
+width: 200px;
+/*float:left;*/
+}  
+#div4 {
+background-color:black;
+height: 75px;
+width: 200px;
+/*float:left;*/
+}  
+#div5 {
+background-color:blue;
+height: 75px;
+width: 200px;
+/*float:none;*/
+}  
+#div6 {
+background-color:purple;
+height: 150px;
+width: 100%;
+}  
+
+
+  
+  

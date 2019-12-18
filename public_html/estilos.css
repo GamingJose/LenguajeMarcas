@@ -1,0 +1,144 @@
+body {
+		font-family: Montserrat, Helvetica;
+		text-align:center ;
+		background-color: #B0D3FC;
+		}
+
+
+#estilo1 {
+		color:tomato; 
+		text-decoration:underline;
+		}
+#estilo2 {
+		background-color:tomato;
+}
+#estilo3 {
+		font-family:verdana;
+}
+#estilo4 {
+		font-size:15px;
+}
+#estilo5 {
+	text-align:center;
+}
+#estilo6 {
+	border:2px black;
+}
+#estilo7 {
+	font-size: 30px;
+	    transform: rotate(45deg);
+}
+#estilo9{
+	background-color:red;
+}
+#boton:link, #boton:visited {
+  background-color: #33B96A;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#boton:hover, #boton:active {
+  background-color: #33B7B9;
+    text-align: center;
+}
+#entretablas{
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-align: left;
+	margin-left: 12.5%;
+}
+
+#tabla1  th, #tabla1 td{
+  padding: 15px;
+}
+
+table#tabla1 tr:nth-child(even) {
+  background-color: #eee;
+}
+table#tabla1 tr:nth-child(odd) {
+ background-color: #fff;
+}
+table#tabla1 th {
+  background-color: rgb(238, 240, 199);
+}
+
+#estilo6 {
+background-color:green;
+}
+
+table,tr,td#tabla2 {
+		border-collapse: collapse;
+border: 2px #ccc;
+background-color:white;
+	}
+#tabla2td td{
+  width: 75px;
+   height: 140px;
+  		
+}
+#tabla2tdazul td{
+  width: 75px;
+   height: 140px;
+	background-color:blue;
+}
+#tabla2tdimg td{
+  background-color: #7FFFD4;
+}
+#tabla2tdlol td{
+  width: 75px;
+   height: 140px;
+  background-color: #572364;
+}
+#tabla2tdhtml td{
+  width: 75px;
+   height: 140px;
+   font-size: 25px;
+  
+}
+
+#estilo8 {
+    transform: rotate(45deg);
+}
+#imagenes{
+width:100%;
+}
+
+#rotar {
+    transform: rotate(90deg);
+	font-size: 30px;
+  }
+
+#documento {
+	width: 100%;
+	height: 85%;
+}  
+
+#documentoFila {
+}
+
+#documentoFilaVacio {
+	height: 50px;
+}
+
+#vacio {
+	width: 10%;
+}
+
+#texto {
+	width: 80%;
+}
+
+#texto1 {
+
+}
+
+#imagenPaisaje{
+	width: 500px;
+	height: 204,5px;
+	padding: 30px;
+}
