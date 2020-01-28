@@ -1,0 +1,79 @@
+body {
+		font-family: Montserrat, Helvetica;
+		text-align:center ;
+		background-color: #e0e1eb;
+		}
+#general {
+		width:100%;
+		height: 100%;
+		}
+#cabecera {
+		height: 75px;
+		background-color: #33354d;
+		font-size: 30px;
+		text-align: left;
+		width: 100%;
+		margin-top: -55px;
+		top: 55px;
+		position: fixed;
+
+		}		
+		
+#titulos {
+		color: white;
+
+		}	
+  
+  #tituloPrincipal {
+		color: white;
+	margin-top:0px;
+		}
+#texto1{
+		width:60%;
+		margin: 0 auto;
+		float:top;
+		border-radius: 10px;
+		text-align: left;
+
+} 
+#cabecera1 {
+		height: 75px;
+		width:80%;
+		font-size: 30px;
+		background-color: #33354d;
+		margin: 0 auto;
+		margin-top: 150px;
+		}		
+		
+#cabecera2 {
+		height: 75px;
+		width:80%;
+		font-size: 30px;
+		background-color: #33354d;
+		margin: 0 auto;
+		margin-top: 75px;
+		}		
+		
+#titulo {
+		color: white;
+		background-color: #29a333;
+		height: 55px;
+		font-size: 45px;
+		border-top-right-radius: 10px;
+		border-top-left-radius: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+}
+#descripcion1 {
+		background-color: white;
+		/*height: 174px;*/
+		float:top;
+		margin-top: -40px;
+		font-size: 30px;
+		padding-top: 20px;
+		padding-bottom: 30px;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+}

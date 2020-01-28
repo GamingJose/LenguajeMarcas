@@ -1,0 +1,15 @@
+software libre: 75 px alto
+
+separacion entre software libre y esctiorio : 53 px
+
+escritorio: 75 px alto, separacion laterales: 10%		
+
+separacion entre escritorio y 7zip: 40 px alto;
+
+7zip: 55 px alto (titulo), separacion laterales: 10%
+	  174 px alto (contenido)
+	  
+	  Ejercicio 2: los 5 bloques estan posicionados de manera absoluta
+	  anchura: el primero 80%
+	  el resto de bloques 35% de anchura
+	  el espacio entre los amarillos y el lila y el fondo es el mismo. todo esta con porcentajes

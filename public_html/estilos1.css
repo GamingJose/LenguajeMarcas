@@ -117,7 +117,10 @@ td#tabla2tdhtml{
    font-size: 25px;
   
 }
+td {
 
+}
+}
 #estilo8 {
     transform: rotate(45deg);
 }
@@ -193,7 +196,17 @@ background-color:purple;
 height: 150px;
 width: 100%;
 }  
-
-
-  
+#iframe {
+border:none;
+width: 100%;
+height: 75px;
+}
+#footer{
+	text-align: center;
+}
+#iframeFooter {
+border:none;
+width: 100%;
+height: 50px;
+}  
   

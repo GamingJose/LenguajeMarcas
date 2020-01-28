@@ -1,0 +1,163 @@
+body {
+		font-family: Arial;
+		font-size: 20px;
+		text-align:center ;
+		background-color: #e0e1eb;
+		}
+
+#cabecera {
+		height: 75px;
+		font-size: 20px;
+		text-align: center;
+		width: 100%;
+		
+
+		}		
+		
+#primero {
+		background-color: #ffd580;
+		border: 1px solid black;
+		width: 80%;
+		height: 75px;
+		margin: 0 auto;
+
+
+}
+#segundo {
+	background-color: #ffff80;
+	width: 35%;
+	height: 200px;
+	position: absolute;
+	top: 200px;
+	left: 150px;
+	z-index: 60;
+	border-style: solid;
+	border-color: #7D6536;
+
+	
+}	
+ 
+#tercero {
+	background-color: #ccffff;
+	text-align: right;
+	width: 35%;
+	height: 200px;
+	padding-left: 2px;
+	position: absolute;
+	top: 200px;
+	left: 1080px;
+	z-index: 60;
+	border-style: solid;
+	border-color: #9FC6C6;
+
+	
+}	
+
+#cuarto {
+	background-color: #80ff80;
+	width: 35%;
+	height: 200px;
+	padding-left: 2px;
+	left: 605px;
+	bottom: 400px;
+	position: absolute;
+	z-index: 90;
+	border-style: solid;
+	border-color: #367D36;
+}		
+#quinto {
+	background-color: #ffe6ff;
+	width: 35%;
+	height: 200px;
+	padding-left: 2px; 
+	position: absolute;
+	left: 150px;
+	bottom: 270px;
+	z-index: 60;
+	border-style: solid;
+	border-color: #BEA7BE;
+}	
+#sexto {
+	background-color: #ffb3b3;
+	width: 35%;
+	height: 200px;
+	padding-left: 2px;
+	bottom: 270px;
+	left: 1080px;
+	position: absolute;
+	z-index: 60;
+	border-style: solid;
+	border-color: #846262;
+}		
+#segundo:hover {
+  z-index: 100;
+}
+#tercero:hover {
+  z-index: 100;
+}
+#cuarto:hover {
+  z-index: 100;
+}
+#quinto:hover {
+  z-index: 100;
+}
+#sexto:hover {
+  z-index: 100;
+}
+
+		
+		
+#titulos {
+		color: white;
+
+		}	
+  
+#texto1{
+		width:60%;
+		margin: 0 auto;
+		float:top;
+		border-radius: 10px;
+		text-align: left;
+
+} 
+#cabecera1 {
+		height: 75px;
+		width:80%;
+		font-size: 30px;
+		background-color: #33354d;
+		margin: 0 auto;
+		margin-top: 150px;
+		}		
+		
+#cabecera2 {
+		height: 75px;
+		width:80%;
+		font-size: 30px;
+		background-color: #33354d;
+		margin: 0 auto;
+		margin-top: 75px;
+		}		
+		
+#titulo {
+		color: white;
+		background-color: #29a333;
+		height: 55px;
+		font-size: 45px;
+		border-top-right-radius: 10px;
+		border-top-left-radius: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+}
+#descripcion1 {
+		background-color: white;
+		/*height: 174px;*/
+		float:top;
+		margin-top: -40px;
+		font-size: 30px;
+		padding-top: 20px;
+		padding-bottom: 30px;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+}

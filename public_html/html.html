@@ -10,12 +10,9 @@
 	
 </head>
 <body>
-
+<div id="global">
 <h2><i>Página web de José Javier Machín Jiménez</i></h2>
-<a href="index.html" id="boton" target="_self">Inicio</a>
-<a href="html.html" id="boton" target="_self">HTML</a>
-<a href="estilos.html" id="boton" target="_self">CSS</a>
-<a href="examen/ejercicio.html" id="boton" target="_self">Examen 1ª Ev</a>
+	<iframe id="iframe" src="menu.html"></iframe>
 
 
 	
@@ -136,7 +133,7 @@
 		</tr>		
 		</tr>	
 		</table>
-		<h3 id="entretablas" >Tablas</h2>
+		<h3 id="entretablas" >Tablas</h3>
 		<table  id="tabla1" align="center" cellpadding="10">
 		<tr>
 			<th>Nombre</th>
@@ -174,7 +171,7 @@
 			<td>Define la cabecera de la tabla.</td>
 		</table>
 		
-		<h3 id="entretablas" >Listas</h2>
+		<h3 id="entretablas" >Listas</h3>
 		<table id="tabla1" align="center" cellpadding="10">
 		<tr>
 			<th>Nombre</th>
@@ -202,7 +199,7 @@
 		</tr>
 		</table>	
 		
-		<h3 id="entretablas" >Media</h2>
+		<h3 id="entretablas" >Media</h3>
 		<!--Google fonts y fontawesome-->
 		<table id="tabla1" align="center" cellpadding="10">
 		<tr>
@@ -222,7 +219,181 @@
 		</tr>	
 		</tr>	
 		</table>
-	<li>
+	<!--li-->
+			<h3 id="entretablas" >Iframes</h3>
+	<table  id="tabla1" align="center" cellpadding="10">
+		<tr>
+			<th>Nombre</th>
+			<th>Definición</th>
+		</tr>
+		<tr>
+			<td>Iframe</td>
+			<td>Inserta una web dentro de otra. Ejemplo: 	<iframe src="menu.html" name="prueba"></iframe></td>
+		<tr>
+			<td>Remover borde Iframe </td>
+			<td><iframe src="menu.html" style="border:none;"></iframe></td>
+		</tr>		
+		</tr>	
+	</table>
+	
+	<h3 id="entretablas" >Bloques</h3>
+	<table  id="tabla1" align="center" cellpadding="10">
+		<tr>
+			<th>Nombre</th>
+			<th>Definición</th>
+		</tr>
+		<tr>
+			<td>Div</td>
+			<td>Elemento que se utiliza como contentedor para otros elementos html.
+			No tiene atributos requeridos, pero style, class e id son comunes. Ejemplo:
+			<div style="background-color:#99ccff;color:black;padding:20px;">
+				<h2>London</h2>
+					<p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+			</div>
+			</td>
+		<tr>
+			<td>Span</td>
+			<td>Elemento que no empieza en una nueva línea y solamente ocupa el ancho que sea necesario. Ejemplo: <span>Hello World</span></td>
+		</tr>		
+		</tr>	
+	</table>
+	
+	<h3 id="entretablas" >Formularios</h3>
+	<table  id="tabla1" align="center" cellpadding="10">
+		<tr>
+			<th>Nombre</th>
+			<th>Definición</th>
+		</tr>
+		<tr>
+			<td>Form</td>
+			<td>Define un formulario. 
+			<ul>
+			<li>Con la etiqueta action se especifica el archivo al que se va a enviar los datos del formulario. 
+			</li>
+			<li>Con la etiqueta target se especifica si se va a abrir en una pestaña nueva o en la misma. Ejemplo: <br> &lt form action="/action_page.php" target="_blank" &gt
+			</li>
+			<li>
+			Con get los datos que se envían se ven en la url del navegador y con post no. Ejemplo: <br> &lt form action="/action_page.php" method="get"&gt
+			</li>
+			<form>
+			.
+			form elements
+			.
+			</form>
+			</td>
+		<tr>
+			<td>Input</td>
+			<td>Define una entrada de texto de una línea. Ejemplo: 
+			<form>
+				Nombre:<br>
+				<input type="text" name="nombre"><br>
+			</form></td>
+		</tr>
+		<tr>
+			<td>Radio</td>
+			<td>Deja seleccionar una opción a la vez. Ejemplo: 
+			<form>
+				<input type="radio" name="gender" value="mujer" checked>Mujer<br>
+				<input type="radio" name="gender" value="hombre">Hombre<br>
+				<input type="radio" name="gender" value="otro">Otro
+			</form>
+			</td>
+		</tr>	
+		<tr>
+			<td>Submit</td>
+			<td>Se utiliza para enviar el formulario. Ejemplo: 
+			<form action="./html.html">
+				First name:<br>
+				<input type="text" name="firstname" value="Mickey"><br>
+				Last name:<br>
+				<input type="text" name="lastname" value="Mouse"><br><br>
+				<input type="submit" value="Submit">
+			</form>
+			</td>
+		</tr>		
+		</tr>	
+	</table>
+	<h3 id="entretablas" >Layouts</h3>
+	<table  id="tabla1" align="center" cellpadding="10">
+		<tr>
+			<th>Nombre</th>
+			<th>Definición</th>
+		</tr>
+		<tr>
+			<td>Header</td>
+			<td>Define la cabeza de un documento (o de una sección).</td> 
+		</tr>
+		<tr>
+			<td>Nav</td>
+			<td>Contenedor con enlaces para navegar sobre la página web (menús).</td>
+		</tr>
+		<tr>
+			<td>Section</td>
+			<td>Define una sección en un documento.</td>
+		</tr>
+		<tr>
+			<td>Article</td>
+			<td>Define un contenedor idependiente del resto </td>
+		</tr>
+		<tr>
+			<td>Aside</td>
+			<td>Define el contenido aparte del resto de contenido (como una barra lateral)</td>
+		</tr>
+		<tr>
+			<td>Footer</td>
+			<td>Especifica un "pie" (footer) para un documento (o de una sección).</td>
+		</tr>
+		<tr>
+			<td>Details</td>
+			<td>Se usa para especificar detalles adicionales.</td>
+		</tr>
+		<tr>
+			<td>Summary</td>
+			<td>Define una cabecera para los elementos de la etiqueta &ltdetails&gt</td>
+		</tr>
+	</table>
+		<h3 id="entretablas" >Código de ordenador</h3>
+	<table  id="tabla1" align="center" cellpadding="10">
+		<tr>
+			<th>Nombre</th>
+			<th>Definición</th>
+		</tr>
+		<tr>
+			<td>kbd</td>
+			<td>Representa entradas de usuario o comandos de de voz. Ejemplo: Pulsa <kbd>ALT + F4</kbd> para aumentar el rendimiento de tu pc</td> 
+		</tr>
+		<tr>
+			<td>samp</td>
+			<td>Representa la salida de un programa. Ejemplo: <samp>¡¡Error!!</samp></td> 
+		</tr>
+		<tr>
+			<td>code</td>
+			<td>Representa un fragmento de codigo de ordenador. Ejemplo: <code>5+5=10 1+1=2</code></td> 
+		</tr>
+		<tr>
+			<td>var</td>
+			<td>Representa una variable, puede ser una expresión matemática o una variable de un programa Ejemplo: <var>E</var> = <var>mc</var><sup>2</sup>.</td> 
+		</tr>
+		
+	</table>
 
+	<h3 id="entretablas" >Entidades</h3>
+	<table  id="tabla1" align="center" cellpadding="10">
+		<tr>
+			<th>Nombre</th>
+			<th>Definición</th>
+		</tr>
+		<tr>
+			<td>&nbsp </td>
+			<td>Especifica un espacio en blanco. Espacio&nbspblanco </td> 
+		</tr>
+		<tr>
+			<td>Otras entidades </td>
+			<td><img src="img/carte
+		</tr>
+		
+	</table>
+	<iframe id="iframeFooter" src="footer.html"></iframe>
+</div>
 </body>
 </html>

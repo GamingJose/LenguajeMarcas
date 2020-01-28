@@ -1,0 +1,18 @@
+<input type="text"/>
+<textarea></textarea>
+
+
+action --> Ruta relativa o absoluta que indica hacia donde va a ir la información del usuario.
+
+	post --> Los datos se envían codificados y por lo tanto no los 
+			vemos en la url. 
+	get --> informa de todo lo que hemos introducido en la url	
+
+	
+<input type="hidden"> -->	Id's de usuario, Tarifa,
+	
+file -->
+
+DATALIST Y OUTPUT nada
+
+no se puede sacar la infromacion de un tipo de contraseña salvo que la pasemos a texto y entonces veremos ahí la password
