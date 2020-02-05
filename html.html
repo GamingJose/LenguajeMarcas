@@ -374,7 +374,7 @@
 			<td>var</td>
 			<td>Representa una variable, puede ser una expresión matemática o una variable de un programa Ejemplo: <var>E</var> = <var>mc</var><sup>2</sup>.</td> 
 		</tr>
-		
+			
 	</table>
 
 	<h3 id="entretablas" >Entidades</h3>
@@ -384,16 +384,71 @@
 			<th>Definición</th>
 		</tr>
 		<tr>
-			<td>&nbsp </td>
-			<td>Especifica un espacio en blanco. Espacio&nbspblanco </td> 
+			<td> & nbsp </td>
+			<td>Especifica un espacio en blanco. Espacio &nbsp blanco </td> 
 		</tr>
 		<tr>
 			<td>Otras entidades </td>
-			<td><img src="img/carte
+			<td><img src="img/caracteres.png"></img></td>
+		</tr>
+		<tr>
+			<td>Símbolos de puntuación </td>
+			<td><img src="img/entidades.png"></img></td>
+		</tr>
+		
+	</table>
+	
+	<h3 id="entretablas" >JavaScript</h3>
+	<table  id="tabla1" align="center" cellpadding="10">
+		<tr>
+			<th>Nombre</th>
+			<th>Definición</th>
+		</tr>
+		<tr>
+			<td>Alert</td>
+			<td>Hace una alerta. Ejemplo: 
+				<button onclick="myFunction()">Pinchame</button>
+				<script>
+				function myFunction() {
+				alert("Hola, soy una alerta.");
+				}
+				</script>
+			</td> 
+		</tr>
+		<tr>
+			<td>Inner HTML</td>
+			<td>
+				<button onclick="funcionInner()">Pinchame</button>
+				<p id="demo"></p>
+				<script>		
+					function funcionInner() {
+					document.getElementById("demo").innerHTML = "Hello JavaScript!";
+					}
+				</script> 
+			</td>
+		</tr>
+		<tr>
+			<td>Cambiar estilos con Javascript</td>
+			<td><p id="demo1">Cambiar los estilos con JavaScript</p>
+				<button type="button" onclick="myFunction1()">Pinchame</button>
+				<script>
+					function myFunction1() {
+					document.getElementById("demo1").style.fontSize = "25px"; 
+					document.getElementById("demo1").style.color = "red";
+					document.getElementById("demo1").style.backgroundColor = "yellow"      
+}
+</script>
+			</td>
 		</tr>
 		
 	</table>
 	<iframe id="iframeFooter" src="footer.html"></iframe>
 </div>
+				
 </body>
+<script>
+				function myFunction() {
+				alert("Hola, soy una alerta.");
+				}
+				</script>
 </html>
