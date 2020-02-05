@@ -73,6 +73,86 @@ table#tabla2 {
 	text-align: left;
 	margin-left: 12.5%;
 }
+#elementosBasicos{
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-align: left;
+	margin-left: 12.5%;
+}
+#enlacesBotones{
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-align: left;
+	margin-left: 12.5%;
+}
+#layouts{
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-align: left;
+	margin-left: 12.5%;
+}
+#codigoOrdenador{
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-align: left;
+	margin-left: 12.5%;
+}
+#entidades{
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-align: left;
+	margin-left: 12.5%;
+}
+#javaScript{
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-align: left;
+	margin-left: 12.5%;
+}
+#formularios{
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-align: left;
+	margin-left: 12.5%;
+}
+#bloques{
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-align: left;
+	margin-left: 12.5%;
+}
+#media{
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-align: left;
+	margin-left: 12.5%;
+}
+#tablas{
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-align: left;
+	margin-left: 12.5%;
+}
+#listas{
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-align: left;
+	margin-left: 12.5%;
+}
+#iframes{
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-align: left;
+	margin-left: 12.5%;
+}
+#estilos{
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-align: left;
+	margin-left: 12.5%;
+}
+
+
 
 #tabla1  th, #tabla1 td{
   padding: 15px;
@@ -265,31 +345,26 @@ width:100%;
 background-color:red;
 height: 75px;
 width: 200px;
-/*float:left;*/
 }  
 #div2 {
 background-color:green;
 height: 75px;
 width: 200px;
-/*float:left;*/
 }  
 #div3 {
 background-color:yellow;
 height: 75px;
 width: 200px;
-/*float:left;*/
 }  
 #div4 {
 background-color:black;
 height: 75px;
 width: 200px;
-/*float:left;*/
 }  
 #div5 {
 background-color:blue;
 height: 75px;
 width: 200px;
-/*float:none;*/
 }  
 #div6 {
 background-color:purple;
