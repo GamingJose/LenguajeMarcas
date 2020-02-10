@@ -12,12 +12,49 @@
 <body>
 <div id="global">
 <h2><i>Página web de José Javier Machín Jiménez</i></h2>
-	<iframe id="iframe" src="menu.html"></iframe>
 
-
+	<div id="menu">
 	
-	<h3 id="elementosBasicos" class="elementosBasicos">Elementos básicos</h2>
-	<table id="tabla1" align="center" cellpadding="10">
+		<a href="index.html" class="boton" target="_top" >Inicio</a>
+		<div class="dropdown">
+		<a href="html.html" id="boton" class="dropbtn; boton" target="_top" >HTML</a>
+		<div class="dropdown-content">
+		<a href="html.html#elementosBasicos" >Elementos básicos</a><br/>
+		<a href="html.html#enlacesBotones">Enlaces y botones</a><br/>
+		<a href="html.html#estilos">Estilos</a><br/>
+		<a href="html.html#elementosHead">Elementos del head</a><br/>
+		<a href="html.html#tablas">Tablas</a><br/>
+		<a href="html.html#listas">Listas</a><br/>
+		<a href="html.html#media">Media</a><br/>
+		<a href="html.html#iframes">Iframes</a><br/>
+		<a href="html.html#bloques">Bloques</a><br/>
+		<a href="html.html#formularios">Formularios</a><br/>
+		<a href="html.html#layouts">Layouts</a><br/>
+		<a href="html.html#codigoOrdenador">Códigos de ordenador</a><br/>
+		<a href="html.html#entidades">Entidades</a><br/>
+		</div>
+		</div>
+		<div class="dropdown">
+		<a href="estilos.html" class="dropbtn; boton" target="_top" >CSS</a>
+		<a href="examen/ejercicio.html" class="boton" target="_blank">Examen 1ª Ev</a>
+		<div class="dropdown-content">
+		<a href="estilos.html#estilosBasicos" >Estilos básicos</a><br/>
+		<a href="estilos.html#estilosFondo" >Estilos de fondo</a><br/>
+		<a href="estilos.html#estilosLetras" >Estilos para letras</a><br/>
+		<a href="estilos.html#colores" >Colores</a><br/>
+		<a href="estilos.html#bordes" >Bordes, márgenes, ids y clases</a><br/>
+		<a href="estilos.html#enlaces" >Enlaces</a><br/>
+		<a href="estilos.html#posicionamiento" >Posicionamiento</a><br/>
+		</div>
+		</div>
+		<a href="ejercicios10enero/ejercicio1.html" class="boton" target="_blank">Ejercicio1</a>
+		<a href="ejercicios10enero/ejercicio2.html" class="boton" target="_blank">Ejercicio2</a>
+		<a href="javascript.html" class="boton" target="_blank">JavaScript</a>
+
+	</div>
+	
+	<h3 id="elementosBasicos" class="elementosBasicos">Elementos básicos</h3>
+	<table class="tabla1" align="center" cellpadding="10">
 		<tr>
 			<th>Nombre</th>
 			<th>Definición</th>
@@ -32,7 +69,7 @@
 		</tr>	
 		<tr>
 			<td><i>P</i></td>
-			<td>Especifia un párrafo. </br>
+			<td><p>Especifia un párrafo.</p>
 			<p>Esto es un párrafo</p></td>
 		</tr>
 		<tr>
@@ -43,10 +80,9 @@
 			<td>Hr</td>
 			<td>Salto de línea con un borde. Ejemplo: <hr> </td>
 		</tr>	
-		</tr>
 	</table>
-	<h3  id="enlacesBotones" >Enlaces y botones </h2>	
-	<table id="tabla1" align="center" cellpadding="10">
+	<h3  id="enlacesBotones" >Enlaces y botones </h3>	
+	<table class="tabla1" align="center" cellpadding="10">
 		<tr>
 			<th>Nombre</th>
 			<th>Definición</th>
@@ -64,7 +100,7 @@
 		</tr>
 		</table>
 		<h3 id="estilos">Estilos</h3>
-		<table  id="tabla1"align="center" cellpadding="10">
+		<table  class="tabla1"align="center" cellpadding="10">
 		<tr>
 			<th>Nombre</th>
 			<th>Definición</th>
@@ -115,7 +151,7 @@
 		</table>
 		
 		<h3 id="elementosHead">Elementos del head</h3>
-		<table  id="tabla1" align="center" cellpadding="10">
+		<table  class="tabla1" align="center" cellpadding="10">
 		<tr>
 			<th>Nombre</th>
 			<th>Definición</th>
@@ -134,7 +170,7 @@
 		</tr>	
 		</table>
 		<h3 id="tablas" >Tablas</h3>
-		<table  id="tabla1" align="center" cellpadding="10">
+		<table  class="tabla1" align="center" cellpadding="10">
 		<tr>
 			<th>Nombre</th>
 			<th>Definición</th>
@@ -172,7 +208,7 @@
 		</table>
 		
 		<h3 id="listas" >Listas</h3>
-		<table id="tabla1" align="center" cellpadding="10">
+		<table class="tabla1" align="center" cellpadding="10">
 		<tr>
 			<th>Nombre</th>
 			<th>Definición</th>
@@ -201,7 +237,7 @@
 		
 		<h3 id="media" >Media</h3>
 		<!--Google fonts y fontawesome-->
-		<table id="tabla1" align="center" cellpadding="10">
+		<table class="tabla1" align="center" cellpadding="10">
 		<tr>
 			<th>Nombre</th>
 			<th>Definición</th>
@@ -221,7 +257,7 @@
 		</table>
 	<!--li-->
 			<h3 id="iframes" >Iframes</h3>
-	<table  id="tabla1" align="center" cellpadding="10">
+	<table  class="tabla1" align="center" cellpadding="10">
 		<tr>
 			<th>Nombre</th>
 			<th>Definición</th>
@@ -237,7 +273,7 @@
 	</table>
 	
 	<h3 id="bloques" >Bloques</h3>
-	<table  id="tabla1" align="center" cellpadding="10">
+	<table  class="tabla1" align="center" cellpadding="10">
 		<tr>
 			<th>Nombre</th>
 			<th>Definición</th>
@@ -259,7 +295,7 @@
 	</table>
 	
 	<h3 id="formularios" >Formularios</h3>
-	<table  id="tabla1" align="center" cellpadding="10">
+	<table  class="tabla1" align="center" cellpadding="10">
 		<tr>
 			<th>Nombre</th>
 			<th>Definición</th>
@@ -314,7 +350,7 @@
 		</tr>	
 	</table>
 	<h3 id="layouts" >Layouts</h3>
-	<table  id="tabla1" align="center" cellpadding="10">
+	<table  class="tabla1" align="center" cellpadding="10">
 		<tr>
 			<th>Nombre</th>
 			<th>Definición</th>
@@ -353,7 +389,7 @@
 		</tr>
 	</table>
 		<h3 id="codigoOrdenador" >Código de ordenador</h3>
-	<table  id="tabla1" align="center" cellpadding="10">
+	<table  class="tabla1" align="center" cellpadding="10">
 		<tr>
 			<th>Nombre</th>
 			<th>Definición</th>
@@ -378,7 +414,7 @@
 	</table>
 
 	<h3 id="entidades" >Entidades</h3>
-	<table  id="tabla1" align="center" cellpadding="10">
+	<table  class="tabla1" align="center" cellpadding="10">
 		<tr>
 			<th>Nombre</th>
 			<th>Definición</th>
@@ -397,53 +433,9 @@
 		</tr>
 		
 	</table>
-	
-	<h3 id="javaScript" >JavaScript</h3>
-	<table  id="tabla1" align="center" cellpadding="10">
-		<tr>
-			<th>Nombre</th>
-			<th>Definición</th>
-		</tr>
-		<tr>
-			<td>Alert</td>
-			<td>Hace una alerta. Ejemplo: 
-				<button onclick="myFunction()">Pinchame</button>
-				<script>
-				function myFunction() {
-				alert("Hola, soy una alerta.");
-				}
-				</script>
-			</td> 
-		</tr>
-		<tr>
-			<td>Inner HTML</td>
-			<td>
-				<button onclick="funcionInner()">Pinchame</button>
-				<p id="demo"></p>
-				<script>		
-					function funcionInner() {
-					document.getElementById("demo").innerHTML = "Hello JavaScript!";
-					}
-				</script> 
-			</td>
-		</tr>
-		<tr>
-			<td>Cambiar estilos con Javascript</td>
-			<td><p id="demo1">Cambiar los estilos con JavaScript</p>
-				<button type="button" onclick="myFunction1()">Pinchame</button>
-				<script>
-					function myFunction1() {
-					document.getElementById("demo1").style.fontSize = "25px"; 
-					document.getElementById("demo1").style.color = "red";
-					document.getElementById("demo1").style.backgroundColor = "yellow"      
-}
-</script>
-			</td>
-		</tr>
-		
-	</table>
 	<iframe id="iframeFooter" src="footer.html"></iframe>
-</div>
+	</div>
+
 				
 </body>
 <script>

@@ -1,0 +1,109 @@
+﻿<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>Página web de José Javier Machín Jiménez</title>
+	<link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="./estilos1.css">
+	<script src="fichero.js?31012020"></script>
+	</head>
+	<body>
+		<div id="global">
+			<h3>Menú realizado con JavaScript</h3>
+		<div id="float1">
+		<a href="index.html" id="boton" target="_top" >Inicio</a>
+		<a href="#" id="boton"  onclick="funcionMenuHtml()" target="_top" >HTML</a>
+		<div id="contenidoMenu" style="transition: all 1.5s ease 0s; position: absolute; background-color: #84D3A0; opacity: 0;margin-left: 35.7%;">
+		<a href="./html.html">Ver todo</a><br/>
+		<a>----------------</a><br/>
+		<a href="html.html#elementosBasicos" >Elementos básicos</a><br/>
+		<a href="html.html#enlacesBotones">Enlaces y botones</a><br/>
+		<a href="html.html#estilos">Estilos</a><br/>
+		<a href="html.html#elementosHead">Elementos del head</a><br/>
+		<a href="html.html#tablas">Tablas</a><br/>
+		<a href="html.html#listas">Listas</a><br/>
+		<a href="html.html#media">Media</a><br/>
+		<a href="html.html#iframes">Iframes</a><br/>
+		<a href="html.html#bloques">Bloques</a><br/>
+		<a href="html.html#formularios">Formularios</a><br/>
+		<a href="html.html#layouts">Layouts</a><br/>
+		<a href="html.html#codigoOrdenador">Códigos de ordenador</a><br/>
+		<a href="html.html#entidades">Entidades</a><br/>
+		<a href="html.html#javaScript">JavaScript</a><br/>
+		</div>
+		<a href="#" id="boton"   onclick="funcionMenuCss()"target="_top" >CSS</a>
+		<div class="menu" id="contenidoMenu1" style="transition: all 1.5s ease 0s;  background-color: #84D3A0; position: absolute; opacity: 0;margin-left: 38%;">
+		<a href="./estilos.html">Ver todo</a><br/>
+		<a>----------------</a><br/>
+		<a href="estilos.html#estilosBasicos" >Estilos básicos</a><br/>
+		<a href="estilos.html#estilosFondo" >Estilos de fondo</a><br/>
+		<a href="estilos.html#estilosLetras" >Estilos para letras</a><br/>
+		<a href="estilos.html#colores" >Colores</a><br/>
+		<a href="estilos.html#bordes" >Bordes, márgenes, ids y clases</a><br/>
+		<a href="estilos.html#enlaces" >Enlaces</a><br/>
+		<a href="estilos.html#posicionamiento" >Posicionamiento</a><br/>
+		</div>
+		<a href="examen/ejercicio.html" id="boton" target="_blank">Examen 1ª Ev</a>
+		<a href="ejercicios10enero/ejercicio1.html" id="boton" target="_blank">Ejercicio1</a>
+		<a href="ejercicios10enero/ejercicio2.html" id="boton" target="_blank">Ejercicio2</a>
+		</div>
+		
+		<div id="p1" style="margin-top: 50px">
+		<table  class="tabla1" align="center" cellpadding="10">
+		<tr>
+			<th>Nombre</th>
+			<th>Definición</th>
+		</tr>
+		<tr>
+			<td>Alert</td>
+			<td>Hace una alerta. Ejemplo: 
+				<button onclick="myFunction()">Pinchame</button>
+				<script>
+				function myFunction() {
+				alert("Hola, soy una alerta.");
+				}
+				</script>
+			</td> 
+		</tr>
+		<tr>
+			<td>Inner HTML</td>
+			<td>
+				<button onclick="funcionInner()">Pinchame</button>
+				<p id="demo"></p>
+				<script>		
+					function funcionInner() {
+					document.getElementById("demo").innerHTML = "Hello JavaScript!";
+					}
+				</script> 
+			</td>
+		</tr>
+		<tr>
+			<td>Cambiar estilos con Javascript</td>
+			<td><p id="demo1">Cambiar los estilos con JavaScript</p>
+				<button type="button" onclick="myFunction1()">Pinchame</button>
+				<script>
+					function myFunction1() {
+					document.getElementById("demo1").style.fontSize = "25px"; 
+					document.getElementById("demo1").style.color = "red";
+					document.getElementById("demo1").style.backgroundColor = "yellow"      
+}
+</script>
+			</td>
+		</tr>
+		<tr>
+			<td>Validar Formulario</td>
+			<td>
+			<p>function validar(){<br/>
+				var elementos = document.getElementsByTagName("input");<br/>
+				Array.from(elementos).forEach(function(valor, indice, array){<br/>
+				console.log("En el indice" + indice + "Hay este valor" valor.name;})}<br/>
+				</p>
+			
+			</td>
+		<tr>
+		
+	</table>
+	</div>
+	</div>
+	</body>
+</html>
