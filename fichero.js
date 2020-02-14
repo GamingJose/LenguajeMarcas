@@ -4,8 +4,8 @@ function funcionMenuHtml() {
 		document.getElementById("contenidoMenu").style.opacity="0";			
 			
 	}
-	else {document.getElementById("contenidoMenu").style.opacity="1";	
-		document.getElementById("contenidoMenu1").style.opacity="0";
+	else {document.getElementById("contenidoMenu").style.opacity="0";	
+		document.getElementById("contenidoMenu").style.opacity="1";
 			}}
 			
 			

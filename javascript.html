@@ -9,11 +9,12 @@
 	</head>
 	<body>
 		<div id="global">
+			<iframe id="iframeTitulo" src="titulo.html"></iframe>
 			<h3>Menú realizado con JavaScript</h3>
 		<div id="float1">
 		<a href="index.html" id="boton" target="_top" >Inicio</a>
 		<a href="#" id="boton"  onclick="funcionMenuHtml()" target="_top" >HTML</a>
-		<div id="contenidoMenu" style="transition: all 1.5s ease 0s; position: absolute; background-color: #84D3A0; opacity: 0;margin-left: 35.7%;">
+		<div class="menu" id="contenidoMenu" style="transition: all 1.5s ease 0s;  background-color: #84D3A0; position: absolute; opacity: 0; margin-left: 30%;">
 		<a href="./html.html">Ver todo</a><br/>
 		<a>----------------</a><br/>
 		<a href="html.html#elementosBasicos" >Elementos básicos</a><br/>
@@ -29,10 +30,9 @@
 		<a href="html.html#layouts">Layouts</a><br/>
 		<a href="html.html#codigoOrdenador">Códigos de ordenador</a><br/>
 		<a href="html.html#entidades">Entidades</a><br/>
-		<a href="html.html#javaScript">JavaScript</a><br/>
 		</div>
 		<a href="#" id="boton"   onclick="funcionMenuCss()"target="_top" >CSS</a>
-		<div class="menu" id="contenidoMenu1" style="transition: all 1.5s ease 0s;  background-color: #84D3A0; position: absolute; opacity: 0;margin-left: 38%;">
+		<div class="menu" id="contenidoMenu1" style="transition: all 1.5s ease 0s;  background-color: #84D3A0; position: absolute; opacity: 0;margin-left: 40%;">
 		<a href="./estilos.html">Ver todo</a><br/>
 		<a>----------------</a><br/>
 		<a href="estilos.html#estilosBasicos" >Estilos básicos</a><br/>
@@ -46,9 +46,10 @@
 		<a href="examen/ejercicio.html" id="boton" target="_blank">Examen 1ª Ev</a>
 		<a href="ejercicios10enero/ejercicio1.html" id="boton" target="_blank">Ejercicio1</a>
 		<a href="ejercicios10enero/ejercicio2.html" id="boton" target="_blank">Ejercicio2</a>
+		<a href="javascript.html" class="boton" target="_blank">JavaScript</a>
 		</div>
 		
-		<div id="p1" style="margin-top: 50px">
+		<div id="p1" style="margin-top: 100px">
 		<table  class="tabla1" align="center" cellpadding="10">
 		<tr>
 			<th>Nombre</th>
@@ -68,7 +69,7 @@
 		<tr>
 			<td>Inner HTML</td>
 			<td>
-				<button onclick="funcionInner()">Pinchame</button>
+				<p>Añadir texto a un elemento. Ejemplo: <button onclick="funcionInner()">Pinchame</button></p>
 				<p id="demo"></p>
 				<script>		
 					function funcionInner() {
@@ -103,7 +104,7 @@
 		<tr>
 		
 	</table>
-	</div>
+
 	</div>
 	</body>
 </html>
