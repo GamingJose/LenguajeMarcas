@@ -1,0 +1,254 @@
+body {
+background-color: #fafafa;
+	font-family: prueba;
+		font-size: 14px;
+}
+
+@font-face{
+		font-family: prueba;
+	src: url("fuentes/SegoeUI.ttf");
+
+}
+
+
+.imagenTexto {
+  display: block;
+  margin-left: 313px;
+  margin-right: auto;
+  height: 598px;
+}
+.titulo{
+	height: 73px;
+	border-bottom: 2px solid #dbdbdb;
+	background-color:white;
+	margin-top: -10px;
+	font-size: 28px;
+}
+.cuerpo {
+
+	margin-top: 38px;
+	
+}
+
+.textos{
+	height: 597px;
+	background-color: white;
+	width: 334px;
+	margin-top: -596px;
+	margin-left: 790px;
+		border: 1px solid #dbdbdb;
+
+}
+
+.4{
+	border-bottom: 3px solid black;
+	
+}
+
+.mas{
+	margin-left: 160px;
+}
+
+.gsearch{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+	border-radius: 5px;
+	border: 2px solid #73AD21;
+}
+	
+.bordes{
+	border-bottom: 1px solid #dbdbdb;
+	border-collapse: collapse;
+}
+
+.parrafo2{
+	height: 376px;
+	
+}
+
+
+.parrafo3{
+	height: 93px;
+	
+}
+
+.parrafo4{
+	height: 44px;
+	
+}
+
+.parrafo1{
+	height: 71px;
+	
+}
+
+.logo{	
+	margin-left: 253px;
+	padding-right: 16px;
+	
+}
+
+.parrafoTitulo{
+		position: absolute;
+		float: right;
+
+margin-top: 20px;
+}
+
+.logo1{
+	padding-left: 16px;
+	margin-left: -500px;
+	margin-top: 30px;
+	float: left;
+	
+}
+
+
+.perfil{
+	width: 34px;
+	  border-radius: 50%;
+	   border-width: 	medium;
+	  border-style: solid;
+	  border-color: #D33B8E;
+	  margin-top: 16px;
+	  margin-left: 12px;
+}
+
+.textoGris{
+	color: #999999;
+	margin-left: 15px;
+	font-size: 14px;
+	
+}
+
+.texto1{
+	margin-top: -40px;
+	padding-left: 65px;
+	
+}
+
+.estiloA{
+	margin-left: 7px;
+	
+}
+
+.texto2{
+
+font-size: 13px;
+	padding-left: 65px;
+	
+}
+
+.puntos{
+	margin-top: -26px;
+	position: absolute;
+	margin-left: 300px;
+	
+}
+
+.texto3{
+	position: absolute;
+    margin-top: -20px;
+    margin-left: 150px;
+	font-size: 14px;
+	
+}
+
+.texto4{
+	font-size: 14px;
+
+margin-top: -0px;
+
+margin-left: 65px;
+}
+
+.peque{
+		margin-left: 65px;
+		color:#dbdbdb;
+		font-size: 11px;
+	
+	
+}
+
+.dias{
+		margin-left: 15px;
+		color:#dbdbdb;
+		font-size: 12px;
+		margin-top: 5px;
+		
+	
+	
+}
+.responder{
+	margin-left:110px;
+	margin-top: -25px;
+	
+}
+
+.espacios{
+	margin-left: 15px;
+	
+}
+
+.guardar{
+	margin-left: 300px;
+	margin-top: -30px;
+	display: block
+	
+}
+
+.iconosVarios{
+	margin-top: 5px;
+	
+	
+}
+
+.texto5{
+	margin-left: 15px;
+	margin-top: 10px;
+	
+}
+
+a, a:visited {
+    color: #003569;
+    color: rgba(var(--fe0,0,53,105),1);
+    text-decoration: none;
+}
+
+
+.azul{
+	color: rgba(var(--i1d,38,38,38),1);
+	
+}
+
+.espacioDerecha{
+	margin-right: 25px;
+	
+}
+
+
+.b{
+	margin-top: -7px;
+	
+}
+
+
+.buscar{
+	margin-left: 613px;
+	float: left;
+	margin-top:5px;	
+}
+
+
+.busca{
+	margin-top: 25px;
+	width:200px;
+	
+}
+
+.busca::placeholder {  
+                  
+                /* Firefox, Chrome, Opera */ 
+                text-align: center; 
+            }

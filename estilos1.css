@@ -443,9 +443,57 @@ height: 60px;
   display: inline-block;
   text-align: center;
   margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 .boton:hover, .boton:active {
   background-color: #33B7B9;
     text-align: center;
 }  
+
+.centrar{
+	margin: 0 auto;
+	
+	
+}
+
+
+#elementoFormulario{
+	width: 25%;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	border: none;
+	border-radius: 4px;
+	background-color: #f1f1f1;
+	padding: 4px;
+}
+
+#elementoFormularioSinWidth{
+	margin-top: 8px;
+	margin-bottom: 8px;
+	  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+
+
+
+
+.boton1:link, .boton1:visited {
+  background-color: #49C6F3;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.boton1:hover, .boton1:active {
+  background-color: #00B1F2;
+    text-align: center;
+}

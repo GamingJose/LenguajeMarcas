@@ -1,0 +1,126 @@
+body {
+	background-image: url("multimedia/fondo1.jpeg");
+	font-family: "Century Gothic";
+
+}
+
+@font-face{
+		font-family: titulo;
+		src: url("fuentes/Starjedi.ttf");
+
+}
+
+@font-face{
+		font-family: body;
+		src: url("fuentes/Starjout.ttf");
+
+}
+
+.bordes{
+	border: 5px solid red;
+}
+
+
+.titulo{
+	margin-right: 62px;
+	margin-left: 29px;
+	text-align: center;
+	font-family: titulo;
+	color: yellow;
+	height:71px;
+	background-image: url("multimedia/fondo1.jpg");
+	margin-top: 36px;
+}
+
+.texto1{
+	margin-top: 0px;
+}
+
+
+.tituloArriba{
+	margin-right: 62px;
+	margin-left: 29px;
+	margin-top: 7px;
+	text-align: justify;
+	font-size: 15px;
+	color:white;
+	height: 115px;
+
+
+}
+
+.reparto {
+margin-top: -471px;
+margin-left: 346px;
+height: 461px;
+padding-left: 33px;
+margin-right: 62px;
+
+}
+
+.poema{
+	margin-left: 29px;
+	color:yellow;
+	width: 288px;
+	margin-top: 13px;
+	height: 461px;
+	font-size: 17px;
+	text-align: center;
+		background-image: url("multimedia/fondo1.jpg");
+
+}
+
+.tabla {
+	color: white;
+	border: 2px solid white;
+}
+
+.parrafos {
+	width: 288px;
+	text-align: center;
+	margin:0 auto;
+
+}
+
+.parrafo{
+	margin-top: 0px
+}
+
+.titulo1{
+	font-family: titulo;
+	font-size: 25px;
+	color: white;
+		margin-top: 0px;
+
+}
+
+.recaudacion{
+	margin-top: 15px;
+	margin-right: 62px;
+	margin-left: 29px;
+	height:115px;
+	text-align: justify;
+
+
+}
+
+.tabla1{
+	margin-top:-25px;
+	font-family: 'Times new Roman';
+}
+
+.parrafos1{
+}
+
+.parrafo2{
+	font-size: 15px;
+	color:white;
+	margin-top: 0px;
+}
+
+.titulo2{
+	margin-top: 15px;
+	color:white;
+	font-family: titulo;
+	
+}

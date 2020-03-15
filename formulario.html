@@ -1,0 +1,57 @@
+﻿<html>
+
+
+	<head>
+	<meta charset="UTF-8">
+	<title>Página web de José Javier Machín Jiménez</title>
+	<link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="./estilos1.css">
+	</head>
+
+	<body>
+		<h2>Ejercicio de formulario</h2>
+		
+		<p>Por favor, rellene el siguiente formulario para encargar su tractor:</p>
+		
+		<form action="/action_page.php" id="formulario">
+			<label for="nombreApe">Nombre y apellidos: </label><br>
+			<input type="text" id="elementoFormulario" name="nombreApe" placeholder="Ingrese aquí su nombre y apellidos"><br>
+
+			<p>¿En que modelos está interesado?</p>			
+			<input id="b4045" name="modelos" type="radio" />40.45  
+			<input id="b4545" name="modelos" type="radio" />45.45  
+			<input id="b5055" name="modelos" type="radio" />50.55  
+			<input id="b7070" name="modelos" type="radio" />70.70
+			<br><br>
+			
+			
+			<p>Seleccione los añadidos que necesita:</p>			
+			<input name="cabina" type="checkbox" />Cabina 
+			<input name="pala" type="checkbox" />Pala  
+			<input name="pesas" type="checkbox" />Pesas 
+			<br><br>
+
+			<label for="detalles">Si quiere alguna cosa particular, especifiquenos aquí </label><br><br>
+			<textarea id="detalles" rows="6" cols="50">
+			</textarea>
+	
+			<br><br>
+			
+			<label for="calendario">¿En que fecha quiere recibir el tractor?</label><br>
+			<input type="date" id="elementoFormularioSinWidth" name="calendario"><br>
+
+
+
+			<p>Para poder contactar con usted, necesita crearse una cuenta.</p>
+			<label for="correo">Correo electrónico: </label><br>
+			<input type="email" id="elementoFormulario" name="correo" placeholder="Ingrese aquí su correo"><br>
+			<label for="contra">Contraseña: </label><br>
+			<input type="password" id="elementoFormulario" name="contraseña" placeholder="Ingrese aquí una contraseña"><br>	
+			
+				
+			<input type="submit" value="Enviar">	
+		</form> 
+		
+	</body>
+</html>
