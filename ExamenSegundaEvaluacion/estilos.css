@@ -81,7 +81,7 @@ body {
 		position: absolute;
     left: 10px;
     top: 25px;
-    background-color: yellow;
+    background-color: #4A6C1F;
     height: 300px;
     width: 40%;
 
@@ -96,9 +96,10 @@ body {
 	position: absolute;
 	left: 20%;
 	top: 160px;
-	background-color: red;
+	background-color: #2B7286;
 	width: 45%;
 	height: 200px;
+		overflow-y: scroll;
 
 	
 }	
@@ -108,7 +109,7 @@ body {
     left: 45%;
     top: 25px;
     z-index: 2;
-    background-color: blue;
+    background-color: #60231E;
     height: 300px;
     width: 40%;
 }	
