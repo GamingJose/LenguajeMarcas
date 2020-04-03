@@ -1,63 +1,138 @@
-
-table#ejercicio2 {
-		border: 1px solid black;
-				margin-bottom: 50px;
-}
-
-#ejercicio2 td {
-
-		border: 1px solid black;
-}
-
-table#ejercicio1 {
-		border: 1px solid black;
-		border-collapse: collapse;
-		width: 50%;
-		text-align: center;
-		margin-bottom: 50px;
-}
-
-#ejercicio1 td {
-
-		border: 1px solid black;
-}
-
-#ejercicio1 th {
-
-		border: 1px solid black;
-}
-
-body{
-background-color:  #c8e0ec;
-font-family:arial;
-}
-#titulo{
-	text-align:center;
-}
-
-#cita{
-	margin-left: 25px;
-}
-
-#titulo1{
-	background-color:#409abf;
-}
-
-#titulo2{
-	background-color:#76b9d6;
+body {
+	background-color: black;
+	font-family:"Arial Rounded MT Bold";
+	margin: 0;
+	padding: 0;
 	color: white;
+
 }
 
-table#ejercicio1 tr:nth-child(even) {
-  background-color: #eee;
-}
-table#ejercicio1 tr:nth-child(odd) {
- background-color: #fff;
-}
-table#ejercicio1 th {
-  background-color: rgb(238, 240, 199);
+#global{
+	width: 90%;
+	margin-left: 5%;
+	
+	
 }
 
-#textoFondoBlanco{
-	background-color: white;
+@font-face{
+		font-family: titulo;
+		src: url("fuentes/BerlinSansFBDemiBold.ttf");
+
 }
+
+@font-face{
+		font-family: body;
+		src: url("fuentes/Starjout.ttf");
+
+}
+
+.bordes{
+	border: 5px solid red;
+	
+}
+
+
+.colorAmarillo{
+	color: #ffb31a;
+}
+
+.titulos{
+	font-family:"Berlin Sans FB Demi";
+	font-size:20px;
+}
+
+.parrafos{
+	margin-top: 81px;
+	font-size:18px;
+}
+
+#video{
+	margin-top: 78px;
+}
+	
+
+#tituloPrincipal{
+	text-align:center;
+	
+}
+
+#vease{
+	margin-top:54px;	
+}
+
+#lista{
+	margin-top: 19px;
+}
+
+.elementosLista{
+		font-size:18px;
+}
+
+
+#pie{
+		margin-left:-70px;
+		margin-top: 73px;
+	
+}
+
+
+
+#izq {
+		position: absolute;
+    left: 10px;
+    top: 25px;
+    background-color: yellow;
+    height: 300px;
+    width: 40%;
+
+}
+
+.SegundaParte{
+	text-align:center;
+	
+}
+
+#centro {
+	position: absolute;
+	left: 20%;
+	top: 160px;
+	background-color: red;
+	width: 45%;
+	height: 200px;
+
+	
+}	
+
+#der {
+	position: absolute;
+    left: 45%;
+    top: 25px;
+    z-index: 2;
+    background-color: blue;
+    height: 300px;
+    width: 40%;
+}	
+
+
+
+#izq:hover {
+  z-index: 100;
+}
+#der:hover {
+  z-index: 100;
+}
+#centro:hover {
+  z-index: 100;
+
+
+}
+#formulario {
+	height: 300px;
+	border: 1px solid #ddd;
+	overflow-y: scroll;
+}
+
+table, th, td {
+  border: 1px solid white;
+}
+

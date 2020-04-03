@@ -1,0 +1,65 @@
+body {
+	   background:linear-gradient( rgba(0, 0, 0, 0.75) 100%, rgba(0, 0, 0, 0.5)100%), url("unknown.png");
+	font-family: "minecraft";
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: white;
+
+}
+
+@font-face{
+		font-family: minecraft;
+		src: url("1_MinecraftRegular1.otf");
+
+}
+
+
+.borde{
+	border: 3px solid black;
+	font-family: minecraft;
+	height: 54px;
+	background-image: url("fondobotonminecra.png");
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+	margin-bottom: 12px;
+	color:white;
+	font-size: 22px;
+}
+
+.med{
+	
+	width: 288px;
+	
+}
+
+.grande{
+	width: 594px;
+	
+}
+
+
+.peque{
+	width: 54px;
+	margin-left: -65px;
+	color: #48DDBC;
+	
+}
+
+#titulo{
+		margin-top:120px;
+		font-size:22px;
+		margin-bottom: 135px;
+	
+	
+}
+
+.botonizq{
+	margin-right: 6px;
+	
+}
+
+.botonder{
+	margin-left: 6px;
+	
+}
